@@ -36,6 +36,8 @@ before_script:
   - sed -i -e "s/exports.clientId = ''/exports.clientId = \"$clientId\"/g" app-config.js
   - sed -i -e "s/exports.clientSecret = ''/exports.clientSecret = \"$clientSecret\"/g" app-config.js
   - cd ../../
+  - echo $TRAVIS_OS_NAME
+  - echo $GH_TOKEN
 
 script:
   - |
