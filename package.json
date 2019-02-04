@@ -1,6 +1,5 @@
 {
   "name": "BrainVerse",
-  "author": "Brain Verse <brainverse@test.com>",
   "version": "0.0.8-alpha",
   "description": "Electronic Lab Notebook for Reproducible Neuro Imaging Research",
   "main": "main.js",
@@ -26,7 +25,7 @@
     }
   },
   "keywords": [],
-  "author": ["Smruti Padhy <smruti@mit.edu>", "Sanu Ann Abraham <sanuann@mit.edu>"],
+  "author": "Smruti Padhy <smruti@mit.edu>",
   "license": "Apache 2",
   "devDependencies": {
     "chai": "^3.5.0",
