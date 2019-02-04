@@ -32,7 +32,7 @@ cache:
 before_script:
   # Replace clientId and clientSecret values in app-config.js with environment
   # variable values.
-  - gem install travis && travis encrypt GH_TOKEN="the-token-from-github" --add
+  - gem install -y travis && travis encrypt GH_TOKEN="the-token-from-github" --add
   - cd eapp/config/
   - sed -i -e "s/exports.clientId = ''/exports.clientId = \"$clientId\"/g" app-config.js
   - sed -i -e "s/exports.clientSecret = ''/exports.clientSecret = \"$clientSecret\"/g" app-config.js
