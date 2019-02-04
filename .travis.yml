@@ -37,7 +37,9 @@ before_script:
   - sed -i -e "s/exports.clientSecret = ''/exports.clientSecret = \"$clientSecret\"/g" app-config.js
   - cd ../../
   - echo $TRAVIS_OS_NAME
-  - echo $GH_TOKEN
+  - echo ${GH_TOKEN}
+  - echo $GITHUB_TOKEN
+  - echo ${GITHUB_TOKEN}  
   - echo $PWD
 
 script:
