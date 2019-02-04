@@ -55,9 +55,7 @@ script:
         -v ~/.cache/electron:/root/.cache/electron \
         -v ~/.cache/electron-builder:/root/.cache/electron-builder \
         electronuserland/builder@sha256:be4be15a1acffa57ef99b9e3ded821c79ad60c294a325da14ca31a526d1d0d6d \
-        bash -c "
-          yarn --link-duplicates --pure-lockfile \
-          && yarn dist --linux --win
+        bash -c "echo HELLO
         "
     else
       # Code signing for macOS is not available in Docker, so we build on macOS.
