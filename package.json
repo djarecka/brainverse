@@ -1,6 +1,6 @@
 {
   "name": "BrainVerse",
-  "author": "Brain Verse <brainverse@test.com>,
+  "author": "Brain Verse <brainverse@test.com>",
   "version": "0.0.8-alpha",
   "description": "Electronic Lab Notebook for Reproducible Neuro Imaging Research",
   "main": "main.js",
