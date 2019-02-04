@@ -1,5 +1,6 @@
 {
   "name": "BrainVerse",
+  "email": "test@gmail.com",
   "version": "0.0.8-alpha",
   "description": "Electronic Lab Notebook for Reproducible Neuro Imaging Research",
   "main": "main.js",
