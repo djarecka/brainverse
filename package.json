@@ -25,7 +25,7 @@
     }
   },
   "keywords": [],
-  "author": "Smruti Padhy <smruti@mit.edu>",
+  "author": ["Smruti Padhy <smruti@mit.edu>"],
   "license": "Apache 2",
   "devDependencies": {
     "chai": "^3.5.0",
