@@ -16,7 +16,6 @@ matrix:
         - ELECTRON_CACHE=$HOME/.cache/electron
         - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
 
-    if: 1=2
     - os: linux
       sudo: required
       services: docker
