@@ -25,7 +25,7 @@ if [ "ql" = "ql" ]; then
   matrix:    
     exclude:
       -os: linux
-  fi
+fi
 
 cache:
   yarn: true
