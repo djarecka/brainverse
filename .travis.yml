@@ -20,10 +20,13 @@ matrix:
       sudo: required
       services: docker
       language: generic
-  if [ "ql" = "ql" ]; then
+
+if [ "ql" = "ql" ]; then
+  matrix:    
     exclude:
       -os: linux
   fi
+
 cache:
   yarn: true
   directories:
