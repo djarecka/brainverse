@@ -21,11 +21,9 @@ matrix:
       services: docker
       language: generic
 
-if [ "ql" = "ql" ]; then
-  matrix:    
-    exclude:
-      -os: linux
-fi
+matrix:    
+  exclude:
+    -os: linux
 
 cache:
   yarn: true
